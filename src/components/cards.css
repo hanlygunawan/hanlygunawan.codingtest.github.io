@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.cards{
+    display: grid;
+    place-items: center;
+}
+
+.card-image{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.card-name{
+    display: grid;
+}
+
+.card-artist{
+    display: grid;
+}
+
